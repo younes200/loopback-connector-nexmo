@@ -1,0 +1,37 @@
+{
+  "name": "loopback-connector-nexmo",
+  "version": "0.5.1",
+  "description": "LoopBack connector for Nexmo",
+  "main": "index.js",
+  "homepage": "http://loopback.io",
+  "keywords": [
+    "web",
+    "restful",
+    "rest",
+    "api",
+    "expess",
+    "loopback",
+    "nexmo",
+    "StrongLoop",
+    "framework",
+    "mobile",
+    "mBaaS"
+  ],
+  "dependencies": {
+    "nexmo": "^1.1.0",
+    "twilio": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Younes Benaomar <younes@interactive-object.com>",
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/InteractiveObject/loopback-connector-nexmo/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InteractiveObject/loopback-connector-nexmo"
+  }
+}
