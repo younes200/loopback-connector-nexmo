@@ -27,7 +27,7 @@ To use the connector, define the datasource using the connector in your `datasou
     
     "nexmo": {
         "name": "nexmo",
-        "connector": "nexmo",
+        "connector": "loopback-component-nexmo",
         "apiKey": "YOUR_NEXMO_API_KEY",
         "apiSecret": "YOUR_NEXMO_API_KEY"
     }
