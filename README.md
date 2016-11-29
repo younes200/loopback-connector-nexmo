@@ -70,7 +70,7 @@ Finally, run the example app using the following command from the `/loopback-con
     
 
 ## Version
-0.5.1
+0.5.2
 
 License
 ----

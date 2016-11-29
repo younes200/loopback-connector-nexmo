@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-nexmo",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "LoopBack connector for Nexmo",
   "main": "index.js",
   "homepage": "http://loopback.io",
