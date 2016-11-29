@@ -1,17 +1,21 @@
-## loopback-connector-nexmo
+# loopback-connector-nexmo
 
 [Nexmo](http://nexmo.com) connector for [LoopBack](http://www.loopback.io)
 
+[![NPM](https://nodei.co/npm/loopback-connector-nexmo.png)](https://nodei.co/npm/loopback-connector-nexmo/)
+
+
 ## Customizing Nexmo configuration for examples
 
-By default, examples from this module assumes the user has a [Nexmo](http://nexmo.com) account.  To run the example you will need to provide your `accountSid` and `authToken`.
+By default, examples from this module assumes the user has a [Nexmo](http://nexmo.com) account.  To run the example you will need 
+to provide your `apiKey` and `apiSecret`.
 
 
 The connector support the following aspects of the [Nexmo REST API](https://docs.nexmo.com/):
-  - [Making Calls](https://docs.nexmo.com/messaging/sms-api)
+  - [Send SMS](https://docs.nexmo.com/messaging/sms-api)
   
 
-### Installation
+## Installation
 
 In your LoopBack project:
     
@@ -39,7 +43,7 @@ Now, using the created model, you can send an SMS or make a call using the `send
     
     Nexmo.sendSms(options, callback);
     
-### Sending a SMS
+## Sending a SMS
     {
         sender: 'YOUR_PHONE_NUMBER',
         recipient: 'TARGET_PHONE_NUMBER',
@@ -65,8 +69,8 @@ Finally, run the example app using the following command from the `/loopback-con
     $ node ./example/example.js
     
 
-### Version
-1.0.0
+## Version
+0.5.1
 
 License
 ----
